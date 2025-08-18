@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>About - Surya Arish Portfolio</title>
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Poppins:wght@300;400;600;700&family=Raleway:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* Hero Background */
+    .hero {
+      background-image: url('./assets/img/bg-4.png') !important;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Floating Icons */
+    .floating-icon {
+      position: absolute;
+      font-size: 40px;
+      color: rgba(0, 0, 0, 0.1);
+      animation: floatIcon 6s ease-in-out infinite;
+    }
+
+    /* Different Speeds */
+    .icon1 {
+      top: 20%;
+      left: 10%;
+      animation-duration: 7s;
+    }
+
+    .icon2 {
+      top: 10%;
+      right: 15%;
+      animation-duration: 8s;
+    }
+
+    .icon3 {
+      bottom: 15%;
+      left: 20%;
+      animation-duration: 9s;
+    }
+
+    .icon4 {
+      bottom: 20%;
+      right: 10%;
+      animation-duration: 7.5s;
+    }
+
+    .icon5 {
+      top: 40%;
+      left: 5%;
+      animation-duration: 10s;
+    }
+
+    .icon6 {
+      top: 50%;
+      right: 5%;
+      animation-duration: 11s;
+    }
+
+    .icon7 {
+      bottom: 10%;
+      left: 45%;
+      animation-duration: 12s;
+    }
+
+    @keyframes floatIcon {
+      0% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-15px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    /* Hero Section Enhancements */
+    .hero h2 {
+      animation: floatUp 1.5s ease forwards;
+    }
+
+    .hero p {
+      animation: zoomFade 2s ease forwards;
+      animation-delay: 0.5s;
+    }
+
+    .btn-get-started {
+      animation: bounceIn 2s infinite;
+    }
+
+    @keyframes floatUp {
+      0% {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes zoomFade {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes bounceIn {
+
+      0%,
+      20%,
+      40%,
+      60%,
+      80%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-8px);
+      }
+    }
+
+    .floating-icons {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .floating-icon {
+      position: absolute;
+      font-size: 70px;
+      color: rgba(0, 0, 0, 0.18);
+      /* strong but not too harsh */
+      animation: float 18s linear infinite;
+    }
+
+    /* Scattered positions */
+    .icon1 {
+      top: 5%;
+      left: 10%;
+      animation-duration: 22s;
+    }
+
+    .icon2 {
+      top: 12%;
+      left: 75%;
+      animation-duration: 26s;
+    }
+
+    .icon3 {
+      top: 25%;
+      left: 40%;
+      animation-duration: 24s;
+    }
+
+    .icon4 {
+      top: 35%;
+      left: 85%;
+      animation-duration: 28s;
+    }
+
+    .icon5 {
+      top: 50%;
+      left: 15%;
+      animation-duration: 20s;
+    }
+
+    .icon6 {
+      top: 55%;
+      left: 65%;
+      animation-duration: 27s;
+    }
+
+    .icon7 {
+      top: 70%;
+      left: 5%;
+      animation-duration: 23s;
+    }
+
+    .icon8 {
+      top: 72%;
+      left: 80%;
+      animation-duration: 25s;
+    }
+
+    .icon9 {
+      top: 15%;
+      left: 50%;
+      animation-duration: 21s;
+    }
+
+    .icon10 {
+      top: 85%;
+      left: 35%;
+      animation-duration: 29s;
+    }
+
+    .icon11 {
+      top: 45%;
+      left: 55%;
+      animation-duration: 26s;
+    }
+
+    .icon12 {
+      top: 30%;
+      left: 5%;
+      animation-duration: 22s;
+    }
+
+    .icon13 {
+      top: 60%;
+      left: 45%;
+      animation-duration: 24s;
+    }
+
+    .icon14 {
+      top: 90%;
+      left: 75%;
+      animation-duration: 27s;
+    }
+
+    .icon15 {
+      top: 8%;
+      left: 90%;
+      animation-duration: 30s;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0) rotate(0deg);
+      }
+
+      50% {
+        transform: translateY(-40px) rotate(180deg);
+      }
+
+      100% {
+        transform: translateY(0) rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">SURYA ARISH</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.instagram.com/mr_surya_arish/?hl=en"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/surya-arish-2b614a27b/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/9751673846" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://github.com/suryaarish" class="github"><i class="bi bi-github"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <!-- Floating Icons -->
+      <div class="floating-icons">
+        <i class="bi bi-filetype-html floating-icon icon1"></i>
+        <i class="bi bi-phone floating-icon icon2"></i>
+        <i class="bi bi-database floating-icon icon3"></i>
+        <i class="bi bi-brush floating-icon icon4"></i>
+        <i class="bi bi-controller floating-icon icon5"></i>
+        <i class="bi bi-tools floating-icon icon6"></i>
+        <i class="bi bi-git floating-icon icon7"></i>
+
+        <!-- Extra Icons -->
+        <i class="bi bi-code-slash floating-icon icon8"></i>
+        <i class="bi bi-cpu floating-icon icon9"></i>
+        <i class="bi bi-cloud floating-icon icon10"></i>
+        <i class="bi bi-terminal floating-icon icon11"></i>
+        <i class="bi bi-boxes floating-icon icon12"></i>
+        <i class="bi bi-laptop floating-icon icon13"></i>
+        <i class="bi bi-lightbulb floating-icon icon14"></i>
+        <i class="bi bi-shield-lock floating-icon icon15"></i>
+      </div>
+
+      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h2 data-aos="fade-up" data-aos-delay="200" class="mb-2" >Surya Arish</h2>
+            <p data-aos="fade-up" data-aos-delay="400">
+              I’m a Software Developer and UI/UX Designer specializing in web development, iOS applications, backend
+              APIs with FastAPI, and crafting intuitive, user centered digital experiences with modern design
+              principles.
+            </p>
+
+            <a href="about.html" class="btn-get-started" data-aos="zoom-in" data-aos-delay="600">About Me</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+  </main>
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Surya Arish</strong> <span>All Rights Reserved</span>
+        </p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.instagram.com/mr_surya_arish/?hl=en"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/surya-arish-2b614a27b/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://wa.me/9751673846" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://github.com/suryaarish" class="github"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    // Initialize AOS Animations
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  </script>
+</body>
+
+</html>
